@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "dapr run --app-id test-server --app-port 13000 --dapr-http-port 30000 --scheduler-host-address 10.7.0.6:50006 -- bun index.ts",
-    "client": "dapr run --app-id  test-client --dapr-http-port 31000 --scheduler-host-address 10.7.0.6:50006 -- bun client.ts"
+    "client": "dapr run --app-id  test-client --resources-path ./resources/ --app-protocol http --dapr-http-port 31000 --scheduler-host-address 10.7.0.6:50006 -- bun client.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
