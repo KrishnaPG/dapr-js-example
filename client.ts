@@ -1,7 +1,7 @@
 import { DaprClient, DaprServer, HttpMethod, CommunicationProtocolEnum } from '@dapr/dapr';
 
 const daprHost = '127.0.0.1';
-const daprPort = '30000'; // should be same as the server's daprPort
+const daprPort = '31000'; // client's own dapr instance
 const daprAppId = 'test-server'; // should be same as the app-id used in starting the server
 
 async function start() {
