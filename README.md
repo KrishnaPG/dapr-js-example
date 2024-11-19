@@ -1,2 +1,7 @@
 # dapr-js-example
 Sample for DAPR js SDK service invocation
+
+## usage
+  1. Install the dependencies with `bun i`
+  2. Launch the server with `bun dev`
+  3. Launch the client with `bun client`
